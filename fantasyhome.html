@@ -1,0 +1,62 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport:" content="width=device-width, initial-scale=1">
+    <title>Fantasy Home Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../css/fantasyhome.css">
+  </head>
+<body>
+    <header>
+      <div class="container">
+        <nav>
+          <h1 class="brand"><a href="index.html">F<span>a</span>n<span>t</span>a<span>s</span>y</a></h1>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+              <a href="#">Positions</a>
+              <a href="#">About</a>
+              <a href="#">Data Analysis</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"> <img src="../site-images/Christian-Mcaffrey-Profile1.jpg" alt=""></div>
+      <div class="swiper-slide"> <img src="../site-images/Saquon-Profile.jpg" alt=""></div>
+      <div class="swiper-slide"> <img src="../site-images/Zeke-Elliott-Profile1.jpg" alt=""> </div>
+      <div class="swiper-slide"> <img src="../site-images/Alvin-Kamara-Profile1.jpg" alt=""> </div>
+      <div class="swiper-slide"> <img src="../site-images/Derrick-Henry-Profile2.jpg" alt=""> </div>
+      <div class="swiper-slide"> <img src="../site-images/Dalvin-Cook-Profile1.jpg" alt=""> </div>
+      <div class="swiper-slide"> <img src="../site-images/Joe-Mixon-Profile1.jpg" alt=""> </div>
+      <div class="swiper-slide"> <img src="../site-images/Miles-Sanders-Profile1.jpg" alt=""> </div>
+      <div class="swiper-slide"> <img src="../site-images/Josh-Jacobs-Profile1.jpg" alt=""> </div>
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 200,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop: true,
+      });
+  </script>
+
+    </script>
+
+      </div>
+</html>

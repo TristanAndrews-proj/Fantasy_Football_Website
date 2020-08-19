@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(../site-images/Nike-Football-Untouchable.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.sign-up-form{
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 30px;
+  /* padding-right: 35px; */
+  margin: 8% auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.sign-up-form h1{
+  color: #1c8adb;
+  margin-bottom: 30px;
+}
+
+.input-box{
+  border-radius: 20px;
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+}
+
+button{
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.signup-btn{
+  background-color: #1c8adb;
+}
+
+.signup-btn:hover{
+  background-color: blue;
+}
+
+.twitter-button{
+  background-color: #90EE90;
+}
+
+.twitter-button{
+  background-color: blue;
+}
+
+a{
+  text-decoration: none;
+}
+hr{
+  margin-top: 20px;
+  width: 80px;
+}
+.or{
+  background: #fff;
+  width: 30px;
+  margin: -19px auto 10px;
+}
+
+img{
+  width: 70px;
+  margin-top: -50px;
+}
